@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Blog</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">MuteTech</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="featured.html">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categories.html">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center">
+                    <h1 class="fw-light">Welcome to Mute Technolgies</h1>
+                    <p class="lead">Explore the latest insights in technology, stories, and inspiration</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Posts -->
+    <section id="featured" class="featured-posts py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Featured Posts</h2>
+            <div class="row">
+                <!-- Featured Post 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" class="card-img-top" alt="Technology post image">
+                        <div class="card-body">
+                            <h5 class="card-title">The Future of Technology</h5>
+                            <p class="card-text">Exploring emerging trends and innovations shaping our digital world.</p>
+                            <a href="posts/future-of-technology.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Featured Post 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09" class="card-img-top" alt="Sustainable Living image">
+                        <div class="card-body">
+                            <h5 class="card-title">Sustainable Living</h5>
+                            <p class="card-text">Tips and tricks for a more environmentally conscious lifestyle.</p>
+                            <a href="posts/sustainable-living.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Featured Post 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828" class="card-img-top" alt="Travel Adventures image">
+                        <div class="card-body">
+                            <h5 class="card-title">Travel Adventures</h5>
+                            <p class="card-text">Discover hidden gems and travel tips from around the world.</p>
+                            <a href="posts/travel-adventures.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Featured Post 4 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1512428559087-560fa5ceab42" class="card-img-top" alt="Digital Marketing image">
+                        <div class="card-body">
+                            <h5 class="card-title">Digital Marketing Trends</h5>
+                            <p class="card-text">Latest strategies and tools for successful online marketing campaigns.</p>
+                            <a href="posts/digital-marketing-trends.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Featured Post 5 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1466637574441-749b8f19452f" class="card-img-top" alt="Food & Cuisine image">
+                        <div class="card-body">
+                            <h5 class="card-title">Food & Cuisine</h5>
+                            <p class="card-text">Explore delicious recipes and culinary adventures from around the globe.</p>
+                            <a href="posts/food-cuisine.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Featured Post 6 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b" class="card-img-top" alt="Fitness & Health image">
+                        <div class="card-body">
+                            <h5 class="card-title">Fitness & Wellness</h5>
+                            <p class="card-text">Tips for maintaining a healthy lifestyle and achieving your fitness goals.</p>
+                            <a href="posts/fitness-wellness.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Featured Post 7 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173" class="card-img-top" alt="Book Reviews image">
+                        <div class="card-body">
+                            <h5 class="card-title">Book Reviews</h5>
+                            <p class="card-text">Dive into our curated selection of must-read books and literary insights.</p>
+                            <a href="posts/book-reviews.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Featured Post 8 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f" class="card-img-top" alt="Financial Tips image">
+                        <div class="card-body">
+                            <h5 class="card-title">Financial Wisdom</h5>
+                            <p class="card-text">Smart money management tips and investment strategies for everyone.</p>
+                            <a href="posts/financial-wisdom.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Featured Post 9 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97" class="card-img-top" alt="Coding Tips image">
+                        <div class="card-body">
+                            <h5 class="card-title">Coding & Development</h5>
+                            <p class="card-text">Programming tutorials and tips for developers of all skill levels.</p>
+                            <a href="posts/coding-development.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Categories</h2>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="category-card text-center p-3">
+                        <i class="fas fa-laptop-code fa-3x mb-3"></i>
+                        <h4>Technology</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="category-card text-center p-3">
+                        <i class="fas fa-leaf fa-3x mb-3"></i>
+                        <h4>Lifestyle</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="category-card text-center p-3">
+                        <i class="fas fa-plane fa-3x mb-3"></i>
+                        <h4>Travel</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="category-card text-center p-3">
+                        <i class="fas fa-utensils fa-3x mb-3"></i>
+                        <h4>Food</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h3>Subscribe to Our Newsletter</h3>
+                    <p class="mb-4">Stay updated with our latest posts and articles</p>
+                    <form class="newsletter-form" action="subscribe.php" method="POST">
+                        <div class="input-group mb-3">
+                            <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>About MuteTech</h5>
+                    <p>A modern platform for sharing stories, ideas, and knowledge with the world.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-light">Home</a></li>
+                        <li><a href="featured.html" class="text-light">Featured</a></li>
+                        <li><a href="categories.html" class="text-light">Categories</a></li>
+                        <li><a href="about.html" class="text-light">About</a></li>
+                        <li><a href="contact.html" class="text-light">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Follow Us</h5>
+                    <div class="social-links">
+                        <a href="https://facebook.com/yourpage" class="facebook" target="_blank" rel="noopener" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://x.com/AlbertBoola" class="twitter" target="_blank" rel="noopener" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/_simply_mute/" class="instagram" target="_blank" rel="noopener" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://linktr.ee/theealbert" class="linkedin" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://youtube.com/yourchannel" class="youtube" target="_blank" rel="noopener" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://tiktok.com/@yourprofile" class="tiktok" target="_blank" rel="noopener" aria-label="TikTok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://pinterest.com/yourprofile" class="pinterest" target="_blank" rel="noopener" aria-label="Pinterest">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2025 MuteTech. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script>
+    // Show subscription status messages based on URL param `sub`
+    (function(){
+        try {
+            const params = new URLSearchParams(window.location.search);
+            const sub = params.get('sub');
+            if (!sub) return;
+            let msg = '';
+            let cls = 'alert-success';
+            if (sub === 'success') {
+                msg = 'Thanks — you are subscribed!';
+            } else if (sub === 'exists') {
+                msg = 'You are already subscribed.';
+                cls = 'alert-info';
+            } else if (sub === 'invalid') {
+                msg = 'Please enter a valid email address.';
+                cls = 'alert-danger';
+            } else {
+                msg = 'Subscription failed. Please try again later.';
+                cls = 'alert-danger';
+            }
+
+            const container = document.querySelector('.newsletter .container .row .col-md-8');
+            if (container) {
+                const alert = document.createElement('div');
+                alert.className = 'alert ' + cls + ' mb-3';
+                alert.role = 'alert';
+                alert.textContent = msg;
+                container.insertBefore(alert, container.firstChild);
+            }
+
+            // Remove query param to keep URL clean
+            if (history && history.replaceState) {
+                const clean = window.location.pathname + window.location.hash;
+                history.replaceState(null, '', clean);
+            }
+        } catch (e) {
+            // ignore
+        }
+    })();
+    </script>
+</body>
+</html>
